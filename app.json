@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/game/index",
+    "pages/index/index",
+    "pages/mycenter/index",
+    "pages/infoDetail/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "iconPath": "images/newsun.png",
+        "selectedIconPath": "images/news.png",
+        "pagePath": "pages/index/index",
+        "text": "新闻"
+      },
+      {
+        "iconPath": "images/gameun.png",
+        "selectedIconPath": "images/game.png",
+        "pagePath": "pages/game/index",
+        "text": "娱乐"
+      },
+      {
+        "iconPath": "images/mycenterun.png",
+        "selectedIconPath": "images/mycenter.png",
+        "pagePath": "pages/mycenter/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap70.json",
+    "useExtendedLib": {
+      "kbone": true,
+      "weui": true
+    }
+}
