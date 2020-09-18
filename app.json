@@ -1,14 +1,13 @@
 {
   "pages": [
-    "pages/game/index",
     "pages/index/index",
+    "pages/game/index",
     "pages/mycenter/index",
     "pages/infoDetail/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "首页",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {

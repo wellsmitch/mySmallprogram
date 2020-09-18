@@ -1,4 +1,10 @@
 {
-  "navigationBarTitleText": "信息",
-  "usingComponents": {}
+  "navigationBarTitleText": "新闻",
+  "usingComponents": {
+    "mp-cell":"weui-miniprogram/cell/cell",
+    "mp-cells":"weui-miniprogram/cells/cells"
+  },
+  "backgroundColor": "#b8ddb2",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance":10
 }

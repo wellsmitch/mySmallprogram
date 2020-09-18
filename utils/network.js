@@ -104,7 +104,7 @@ const Network = {
                 _param.header['token'] = _token;
             }
         }
-      console.log(_param)
+     // console.log(_param)
         wx.request(_param)
     }
 }
