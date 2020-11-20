@@ -72,26 +72,26 @@ const Network = {
             url: url,
             // data: params,
             method: 'GET',
-            header: {
-                'content-type': 'application/x-www-form-urlencoded',
-                'token': ''
-            },
+           
             success: (res) => {
                 sucCb && sucCb(res)
             },
             fail: (res) => {
+                console.log(res);
+                
                 if (errorCb) {
                     errorCb && errorCb(res);
                 } else {
                     wx.showToast({
-                        title: '网络异常',
-                        icon: 'none'
+                        title: JSON.stringify(res),
+                        icon: 'none',
+                        duration: 1000000
                     });
                 }
             },
             complete: () => {
                 if (opts.loading) {
-                    wx.hideLoading();
+                  //  wx.hideLoading();
                 }
             }
         }

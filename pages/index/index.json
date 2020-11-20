@@ -2,7 +2,8 @@
   "navigationBarTitleText": "新闻",
   "usingComponents": {
     "mp-cell":"weui-miniprogram/cell/cell",
-    "mp-cells":"weui-miniprogram/cells/cells"
+    "mp-cells":"weui-miniprogram/cells/cells",
+    "mp-icon":"weui-miniprogram/icon/icon"
   },
   "backgroundColor": "#b8ddb2",
   "enablePullDownRefresh": true,

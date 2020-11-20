@@ -11,6 +11,7 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
+    "custom": true,
     "color": "#a9b7b7",
     "selectedColor": "#11cd6e",
     "borderStyle": "black",
@@ -19,7 +20,7 @@
         "iconPath": "images/newsun.png",
         "selectedIconPath": "images/news.png",
         "pagePath": "pages/index/index",
-        "text": "新闻"
+        "text": "鲜闻"
       },
       {
         "iconPath": "images/gameun.png",

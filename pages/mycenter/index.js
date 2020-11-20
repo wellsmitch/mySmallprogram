@@ -15,6 +15,11 @@ Page({
     })
   },
   onLoad: function () {
+    this.getTabBar().setData({
+      selected: 2
+    })
+    console.log(app);
+    
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
